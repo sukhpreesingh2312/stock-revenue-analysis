@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-10-28T20:17:10.374246+00:00",
+  "comparison_start": "2010-07-01",
+  "comparison_end": "2020-04-30",
+  "common_trading_days": 2475,
+  "sources": {
+    "TSLA": {
+      "revenue_url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/labs/project/revenue.htm",
+      "revenue_sha256": "dcaeb19abdc832f5b9250241c3352053ecd98894b6ce574d20b9d168e6bae0a8",
+      "revenue_last_date": "2022-09-30",
+      "prices_sha256": "6cbfda1bedc32eba0b857850fb7b3c662dbe0c2412e65fdb40a201387e35a24c",
+      "price_source": "Yahoo Finance via yfinance; auto_adjust=True"
+    },
+    "GME": {
+      "revenue_url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/labs/project/stock.html",
+      "revenue_sha256": "73154deae9bb0d98d3e2af54f149af379bf578e6c5d54085bf1a5f753137aa4b",
+      "revenue_last_date": "2020-04-30",
+      "prices_sha256": "8d74660ac81c1579f8d4476c9610b32230041e517664b886278b4a38cf432b41",
+      "price_source": "Yahoo Finance via yfinance; auto_adjust=True"
+    }
+  },
+  "limitations": [
+    "Historical snapshots, not current fundamentals.",
+    "Fiscal quarter ends are not earnings release dates.",
+    "Adjusted closes can be revised by provider; cached files preserve this run.",
+    "Revenue is not profit. No causal or predictive claims."
+  ]
+}
